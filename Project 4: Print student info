@@ -1,0 +1,11 @@
+student = {
+    "001": {"name": "Nadia", "age": 14, "score": 88},
+    "002": {"name": "Josh", "age": 15, "score": 76},
+    "003": {"name": "Patience", "age": 20, "score": 98}
+}
+for student_id in student:
+    student_information = student[student_id]
+    name = student_information['name']
+    age = student_information['age']
+    score = student_information['score']
+    print(f"Hi, my name is {name}, I am {age} years old, and I got a {score} on the test")
